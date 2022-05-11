@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-B">
+    <title>Reteta clatite</title>
+</head>
+<body>
+    <table border = "2">
+        <tr>
+            <td>
+            </p>
+            <h4><b>reteta de clatite</b></h4>
+            </p>
+            </td>
+            <td>
+                <img src="Imagini/clatite.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h4><b>ingrediente</b></h4>
+            </p>
+                <u1>
+                    <li>350 faina</li>
+                    <li>3 oua</li>
+                    <li>50 g unt topit</li>
+                    <li>500 ml lapte rece</li>
+                    <li>250 ml apa minerala</li>
+                    <li>un praf de sare</li>
+                    <li>optional: vanilie, coaja de lamaie</li>
+                    <li>ulei pentru prajit</li>
+                </u1>
+            </p>
+            </td>
+            <td>
+            </p>
+            <ol start="1">
+    <li><h4><b>Timp de preparare</b> 10 minute</h4></li>
+    <li><h4><b>Timp de gatire</b> 2 minute</h4></li>
+    <li><h4><b>Timp Total</b> 12 minute</h4></li>
+            </o1>
+
+            </td>  
+        </tr>
+        <tr>
+            <td>
+                <h4>formular</h4>
+            </p>
+                <form action="fisierul_generare.php" method="post">
+            <br>  
+            <label for="numele-tau">numele tau</label>
+            <input type="text" id="numele-tau" name="numele-tau" required placeholder="numele tau">
+        </p>
+            <label for="email">adresa de mail</label>
+            <input type="email" required placeholder="Emailul tau">
+        </p>
+            <label for="varsta">varsta</label>
+            <select name = "varsta">
+                <option value="varsta">15-21 ani</option>
+                <option value="varsta">22-50 ani</option>
+            </select>
+        </p>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+            <br>
+            </td>
+            
+            <td>
+                <h4>masini preferate</h4>
+            <form action="fisierul_generare1.php" method="post">
+            <br>
+            <label for="bmw">bmw</label>
+            <input type="radio" id="bmw" name="car" value="bmw">
+            </p>
+            <label for="audi">audi</label>
+            <input type="radio" id="audi" name="car" value="audi">
+            </p>
+            <label for="volvo">volvo</label>
+            <input type="radio" id="volvo" name="car" value="volvo">
+            </p>
+            <label for="mercedes">mercedes</label>
+            <input type="radio" id="mercedes" name="car" value="mercedes">
+        </p>
+        <input type="reset" value="Reset">
+                </form>
+            </td>  
+        </tr>
+</body>
+</html>
